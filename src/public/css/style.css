@@ -1,0 +1,87 @@
+body{
+    
+    background: linear-gradient(to right, #ed213a, #93291e)
+}
+
+#titulo{
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merienda One', cursive;
+
+}
+
+.card{
+    height: 200px;
+    border: 0px;
+}
+
+#card1, #card2, #card3, #card4{
+    font-size: 20px;
+}
+
+#card_filmes{
+    margin-top: 70px;
+}
+
+#img1, #img2, #img3, #img4{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+a{
+    color: #e5b9b9;
+}
+
+a:hover{
+    color: black;
+}
+
+button{
+    border: 0px;
+    background-color: white;
+}
+
+#bigCard{
+    margin-top: 70px;
+    border-radius: 10px;
+    height: auto;
+}
+
+#imgPrincipal{
+    width: 370px;
+    border-radius: 10px;
+    box-shadow:  2px 2px 2px 2px rgba(0,0,0,0.3);
+}
+
+#texto{
+    margin: 50px;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    border: 0px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+#btnAnterior:hover, #btnProximo:hover{
+
+    background-color: brown;
+
+}
+
+.img-balde-pipoca{
+    width: 5%;
+    position: absolute; 
+	left: 1060px; /* posiciona a 90px para a esquerda */ 
+	top: 30px; /* posiciona a 70px para baixo */
+}
